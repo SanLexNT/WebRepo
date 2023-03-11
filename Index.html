@@ -5,42 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой сайт</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="box">
+    <div class="header-page">
         <div class="container">
-            <div class="box__inner">
-                <div class="title">
-                    <h1 class="title__name">Why this is awesome</h1>
-                    <div class="title__line"></div>
-                    <p class="title__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <header>
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
                 </div>
-                <div class="box-content">
-                    <div class="elements">
-                        <div class="item">
-                            <div class="item__icon"></div>
-                            <h3 class="item__title">Thoughtful deisgn</h3>
-                            <p class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis beatae
-                                 vitae cupiditate repudiandae inventore!</p>
-                        </div>
-                        <div class="item">
-                            <div class="item__icon"></div>
-                            <h3 class="item__title">Well crafted</h3>
-                            <p class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis beatae
-                                 vitae cupiditate repudiandae inventore!</p>
-                        </div>
-                        <div class="item">
-                            <div class="item__icon"></div>
-                            <h3 class="item__title">Easy to customize</h3>
-                            <p class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis beatae
-                                 vitae cupiditate repudiandae inventore!</p>
-                        </div>
-                    </div>
+                <div class="nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#">Home</a></li>
+                        <li class="menu__item"><a href="#">About</a></li>
+                        <li class="menu__item"><a href="#">Services</a></li>
+                        <li class="menu__item"><a href="#">Gallery</a></li>
+                        <li class="menu__item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="main-page__content">
+                <h1 class="main-page__content-title">
+                    <span>Sell your</span> car now
+                </h1>
+                <p class="main-page__content__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Molestias suscipit ad unde nihil earum tenetur ullam quis molestiae deleniti, atque itaque adipisci. Omnis, temporibus nihil?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="service-page">
+        <div class="container">
+            <h2 class="container__title">
+                <span>Our</span> services
+            </h2>
+            <div class="services">
+                <div class="item">
+                    <!--Иконка-->
+                    <p class="item__text">Making your trip beautiful and easier</p>
+                </div>
+                <div class="item">
+                    <!--Иконка-->
+                    <p class="item__text">Tools to help you succeed tomorrow</p>
+                </div>
+                <div class="item">
+                    <!--Иконка-->
+                    <p class="item__text">Ideas that will blow you out the blue</p>
+                </div>
+                <div class="item">
+                    <!--Иконка-->
+                    <p class="item__text">Navigate your path to beautiful world</p>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <div class="about-page">
+        <div class="container">
+            <p class="container__text">We are in business for over 6 years providing amazing services </p>
+            <button class="container__btn">Our story</button>
+        </div>
+    </div>
+    <div class="price-page">
+        <div class="container">
+            <h2 class="container__title">Pricing</h2>
+            <div class="prices">
+                <div class="item">
+                    <p class="item__name">Starter</p>
+                    <h2 class="item__price">Free</h2>
+                    <p class="item__decs">Free service</p>
+                    <p class="item__decs">Multiple account</p>
+                    <p class="item__decs">Management no</p>
+                    <p class="item__decs">--</p>
+                    <p class="item__decs">--</p>
+                    <button class="item__btn">Try</button>
+                </div>
+                <div class="item">
+                    <p class="item__name">Business</p>
+                    <h2 class="item__price">$97</h2>
+                    <p class="item__decs">Free service</p>
+                    <p class="item__decs">Multiple account</p>
+                    <p class="item__decs">Management no</p>
+                    <p class="item__decs">Unlimited data</p>
+                    <p class="item__decs">--</p>
+                    <button class="item__btn-alt">Sign up</button>
+                </div>
+                <div class="item">
+                    <p class="item__name">Professional</p>
+                    <h2 class="item__price">$297</h2>
+                    <p class="item__decs">Free service</p>
+                    <p class="item__decs">Multiple account</p>
+                    <p class="item__decs">Management no</p>
+                    <p class="item__decs">Unlimited data</p>
+                    <p class="item__decs">Whatever you need</p>
+                    <button class="item__btn">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-page">
+        <div class="container">
+            <footer>
+                <p class="container__text">
+                    All Rights Reserved |  2016  |  Designed with love by <span>DesignCoo</span>
+                </p>
+                <div class="footer__logo">
+                    <img src="img/logo-red.png" alt="Logo red">
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
