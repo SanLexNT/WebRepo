@@ -1,3 +1,211 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: PTSerif-Regular;
+    src: url(../fonts/PT_Serif-Web-Regular.ttf);
+}
+@font-face {
+    font-family: Couture-Bold;
+    src: url(../fonts/couture-bld.otf);
+}
+
 *{
     box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+button:hover{
+    cursor: pointer;
+}
+.header-page {
+    background: url(../img/background.png) no-repeat rgb(200, 37, 22);
+    background-size: cover;
+}
+.container{
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.header-page__inner{
+    padding: 40px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    margin-bottom: 15px;
+}
+li.menu__item {
+    margin: 0 5px
+}
+li.menu__item a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 15px;
+    font-family: Montserrat-Regular, arial;
+}
+li.menu__item a:hover, li.menu__item a:focus{
+    background-color: #130e27;
+    border-radius: 5px;
+}
+
+.main-page__content {
+    padding-bottom: 150px;
+    text-align: left;
+    margin-left: 5px;
+}
+.main-page__content-title {
+    font-family: Montserrat-Bold, arial;
+    font-size: 90px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main-page__content-title span{
+    display: block;
+    color: #130e27;
+    margin: 0 0 0 5px;
+}
+.main-page__content__text, .container__text{
+    margin-left: 5px;
+    color: #fff;
+    font-family: PTSerif-Regular, arial;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.service-page__inner {
+    margin: 25px 0 65px 5px;
+}
+.container__title {
+    font-family: Couture-Bold, arial;
+    font-size: 50px;
+    line-height: 80px;
+    color: #130e27;
+    text-transform: uppercase;
+}
+.container__title span{
+    color: rgb(200, 37, 22);
+}
+.services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    max-width: 150px;
+    text-align: center;
+}
+.item i.fa{
+    margin-bottom: 20px;
+    font-size: 150px;
+    color: #130e27;
+}
+.item__text {
+    font-family: PTSerif-Regular, arial;
+    font-size: 16px;
+    line-height: 20px;
+    color: #130e27;
+}
+.about-page {
+    background-color: #130e27;
+    padding: 35px 0;
+}
+.about-page__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-page__inner .container__text{
+    max-width: 640px;
+}
+.container__btn {
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px;
+    color: #fff;
+    font-family: Monteserrat-Regular, arial;
+    font-size: 22px;
+    background-color: rgb(200, 37, 22);
+    text-transform: uppercase;
+}
+.price-page {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.prices {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prices .item{
+    max-width: 320px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 60px 15px 60px;
+}
+.item__name, .item__decs {
+    font-family: PTSerif-Regular, arial;
+    font-size: 22px;
+    line-height: 28px;
+}
+.item__price {
+    font-family: Monteserrat-Bold, arial;
+    font-size: 60px;
+    line-height: 80px;
+    color: rgb(200, 37, 22);
+    margin: 5px 0;
+}
+.item__decs{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.item__btn, .item__btn-alt {
+    margin-top: 35px;
+    width: 200px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Monteserrat-Regular, arial;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #130e27;
+}
+.item__btn-alt{
+    background-color: rgb(200, 37, 22);
+}
+.footer-page{
+    background-color: #130e27;
+    padding: 60px 0px;
+}
+.footer-page__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-page__inner .container__text{
+    max-width: 640px;
+    font-family: PTSerif-Regular, arial;
+    font-size: 20px;
+    line-height: 22px;
+}
+.container__text span{
+    color: rgb(200, 37, 22);
 }
